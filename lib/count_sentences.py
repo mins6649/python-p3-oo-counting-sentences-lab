@@ -25,6 +25,7 @@ class MyString:
       return False
   def is_exclamation(self):
     if self.value[-1] == ("!"):
+    # .endswith() method will also work
       return True
     else:
       return False
